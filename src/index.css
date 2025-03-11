@@ -1,13 +1,17 @@
+@import "leaflet/dist/leaflet.css"; /* Importa los estilos de Leaflet, una biblioteca de mapas interactivos */
+
+/* Estilos generales para el cuerpo de la página */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0; /* Elimina los márgenes predeterminados del body */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+    sans-serif; /* Define una lista de fuentes para el texto */
+    -webkit-font-smoothing: antialiased; /* Suaviza la fuente en navegadores Webkit */
+    -moz-osx-font-smoothing: grayscale; /* Suaviza la fuente en macOS */
 }
 
+/* Estilos específicos para el texto dentro de etiquetas <code> */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 
+    monospace; /* Define una fuente monoespaciada para los fragmentos de código */
 }
